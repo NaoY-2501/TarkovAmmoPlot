@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TarkovAmmoPlot</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://kit.fontawesome.com/3dabb8ba8d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/bulmaswatch/darkly/bulmaswatch.min.css">
+</head>
+<body>
+<section class="section">
+    <h1 class="title">TarkovAmmoPlot</h1>
+     <a class="button is-small">
+         <span class="icon is-small">
+             <i class="fab fa-github"></i>
+         </span>
+         <span>GitHub</span>
+     </a>
+    <span class="tag is-info is-medium">v2020.01</span>
+{{ plot|safe }}
+</section>
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>
+            Ammunition data is retrieved from <a href="https://escapefromtarkov.gamepedia.com/Escape_from_Tarkov_Wiki" target="_blank">The official Escape from Tarkov Wiki</a>.
+        </p>
+    </div>
+</footer>
+</body>
+</html>
