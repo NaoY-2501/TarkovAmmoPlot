@@ -69,4 +69,4 @@ venv/
 .mypy_cache/
 
 # Wiki HTML cache files
-/cache/.html
+/cache/*.html
